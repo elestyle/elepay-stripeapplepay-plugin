@@ -1,0 +1,37 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Elepay_StripeApplePay_Plugin
+@_exported import Elepay_StripeApplePay_Plugin
+import PassKit
+import StripeApplePay
+import StripeCore
+import Swift
+@objc public enum StripeApplePayPluginPaymentStatus : Swift.Int {
+  case success
+  case error
+  case userCancellation
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol StripeApplePayPluginDelegate {
+  @objc func applePayPluginContext(_ status: Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus, error: Swift.Error?)
+}
+@_inheritsConvenienceInitializers @objc final public class StripeApplePayPlugin : ObjectiveC.NSObject {
+  @objc(sharedPlugin) public static let shared: Elepay_StripeApplePay_Plugin.StripeApplePayPlugin
+  @objc final public func setup(publishableKey: Swift.String)
+  @objc final public func makeApplePay(request: PassKit.PKPaymentRequest, clientSecret: Swift.String, delegate: Elepay_StripeApplePay_Plugin.StripeApplePayPluginDelegate) -> Swift.Bool
+  @objc public static func pluginDeviceSupportsApplePay() -> Swift.Bool
+  @objc public static func paymentRequest(withMerchantIdentifier merchantIdentifier: Swift.String, country countryCode: Swift.String, currency currencyCode: Swift.String) -> PassKit.PKPaymentRequest
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension StripeApplePayPlugin : StripeApplePay.ApplePayContextDelegate {
+  final public func applePayContext(_ context: StripeApplePay.STPApplePayContext, didCreatePaymentMethod paymentMethod: StripeCore.StripeAPI.PaymentMethod, paymentInformation: PassKit.PKPayment, completion: @escaping StripeApplePay.STPIntentClientSecretCompletionBlock)
+  final public func applePayContext(_ context: StripeApplePay.STPApplePayContext, didCompleteWith status: StripeApplePay.STPApplePayContext.PaymentStatus, error: Swift.Error?)
+}
+extension Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus : Swift.Equatable {}
+extension Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus : Swift.Hashable {}
+extension Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus : Swift.RawRepresentable {}
