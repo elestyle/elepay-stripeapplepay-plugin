@@ -3,7 +3,7 @@ triple:          'arm64-apple-darwin'
 binary-path:     '/Users/linguofeng/Library/Developer/Xcode/DerivedData/ElepaySDK-dyjcgrccklxgpfevjksxqdhhhobz/Build/Intermediates.noindex/ArchiveIntermediates/Elepay_StripeApplePay_Plugin/InstallationBuildProductsLocation/Library/Frameworks/Elepay_StripeApplePay_Plugin.framework/Elepay_StripeApplePay_Plugin'
 relocations:
   - { offset: 0xD4F7D, size: 0x8, addend: 0x0, symName: _Elepay_StripeApplePay_PluginVersionString, symObjAddr: 0x0, symBinAddr: 0xB6DF0, symSize: 0x0 }
-  - { offset: 0xD4FB2, size: 0x8, addend: 0x0, symName: _Elepay_StripeApplePay_PluginVersionNumber, symObjAddr: 0x58, symBinAddr: 0xB6E48, symSize: 0x0 }
+  - { offset: 0xD4FB2, size: 0x8, addend: 0x0, symName: _Elepay_StripeApplePay_PluginVersionNumber, symObjAddr: 0x60, symBinAddr: 0xB6E50, symSize: 0x0 }
   - { offset: 0xD4FF3, size: 0x8, addend: 0x0, symName: '_$s28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO8rawValueACSgSi_tcfC', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
   - { offset: 0xD5017, size: 0x8, addend: 0x0, symName: '_$s28Elepay_StripeApplePay_Plugin0bcdE0C6sharedACvpZ', symObjAddr: 0x6BF8, symBinAddr: 0xE44F8, symSize: 0x0 }
   - { offset: 0xD5252, size: 0x8, addend: 0x0, symName: '_$s28Elepay_StripeApplePay_Plugin0bcdE0C6shared_WZ', symObjAddr: 0xFC, symBinAddr: 0x40FC, symSize: 0x2C }
