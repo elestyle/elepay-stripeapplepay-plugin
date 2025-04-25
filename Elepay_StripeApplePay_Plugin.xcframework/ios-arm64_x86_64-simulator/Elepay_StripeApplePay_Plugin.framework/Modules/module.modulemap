@@ -1,0 +1,11 @@
+framework module Elepay_StripeApplePay_Plugin {
+  umbrella header "Elepay_StripeApplePay_Plugin.h"
+  export *
+
+  module * { export * }
+}
+
+module Elepay_StripeApplePay_Plugin.Swift {
+  header "Elepay_StripeApplePay_Plugin-Swift.h"
+  requires objc
+}

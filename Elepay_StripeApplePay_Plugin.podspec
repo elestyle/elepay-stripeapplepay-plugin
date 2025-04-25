@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Elepay_StripeApplePay_Plugin"
-  s.version      = "0.1.0"
+  s.version      = "1.0.0"
   s.summary      = "This is a plugin framework working with ElepaySDK for iOS."
   s.description  = <<-DESC
                     Elepay_StripeApplePay_Plugin is a plugin framework working with elepay iOS SDK.
@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.license        = { :type => "Copyright", :text => "Copyright ELESTYLE, Inc. All Rights Reserved." }
   s.author             = { "ELESTYLE, Inc." => "info@elestyle.jp" }
 
-  s.platform     = :ios, "11.0"
-  s.swift_versions = ['5.4.2']
+  s.platform     = :ios, "12.0"
+  s.swift_versions = ['6.0']
 
   s.source       = { :git => "https://github.com/elestyle/elepay-stripeapplepay-plugin.git", :tag => "#{s.version}" }
   s.vendored_frameworks = "Elepay_StripeApplePay_Plugin.xcframework"

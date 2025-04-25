@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Elepay_StripeApplePay_Plugin-Swift.h</key>
 		<data>
-		uJ30jqjoHc/oLzjWKkuhr/XvGJ4=
+		upIBzUGFwPXfw4UGS4PW/CChkrA=
 		</data>
 		<key>Headers/Elepay_StripeApplePay_Plugin.h</key>
 		<data>
@@ -14,35 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WEeBemj+ZCMVPRMaXwhPjHj6bdA=
+		Z3F7cEIfq66UZlMpXV9+rrEOPg8=
+		</data>
+		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		2nAwUFT+WyzYoY4QmiXg9EmtG4c=
+		</data>
+		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		LTE8MWybyzSoVO08y3dHlBPkeck=
 		</data>
 		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		D3wGwlamhYfARsfQItksUNSf1Ag=
+		KCRvXBn67Bg2uE3W6/kAceen4jY=
 		</data>
 		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		BUbNgmRU4dts7EC/aEoskc7P4sY=
+		LTE8MWybyzSoVO08y3dHlBPkeck=
 		</data>
 		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		LO4JKaKNWbRxmvvWzNAznjlTZWw=
-		</data>
-		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		D3wGwlamhYfARsfQItksUNSf1Ag=
-		</data>
-		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		BUbNgmRU4dts7EC/aEoskc7P4sY=
-		</data>
-		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		LO4JKaKNWbRxmvvWzNAznjlTZWw=
+		rVk4g7KpkYlmSrgS1XB2zsF7ZMY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		zNhfY7fy3lQqewz8+TcVQVj4N0E=
+		+k7qlH9cceY+ibfMno4WCTAdGnA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7H5q2CcnR4vm93rglgDDvoGjx4IrD7N3tUxqZomEXSU=
+			DoRXRYJemtEZkmNoyK0Nk+xXOZ4/6mnCY4QybSHg5CA=
 			</data>
 		</dict>
 		<key>Headers/Elepay_StripeApplePay_Plugin.h</key>
@@ -61,53 +57,46 @@
 			Gpp2HugfY7EiQ8AmvqC5xen2WCY/XtyER/nbVFtU0ig=
 			</data>
 		</dict>
+		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RPCXPsn0Y/rYwGhyoB1yVB2lP2BPVCPCePlhPSeFvbE=
+			</data>
+		</dict>
+		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T38fJzaFkoU8TEUqw4gy44SWk2KXp+uyx3xORM4HlfE=
+			</data>
+		</dict>
 		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z2oT8bZcxSc4k4n6AVCnDbZULEPNNsjzM1ZNFeLtm/w=
+			wz8igtXaoQl9UW9vwGahiu3wHU+/RVyLphDl8tH+JDM=
 			</data>
 		</dict>
 		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uiNwntHC3UkKO/A7qBstQeJPFhHF1I8wUKNIwrKa7Tg=
+			T38fJzaFkoU8TEUqw4gy44SWk2KXp+uyx3xORM4HlfE=
 			</data>
 		</dict>
 		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PfR530aMTtz28fd/A9Yx6yZT3zVtH02F8QWteVc17AY=
-			</data>
-		</dict>
-		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			z2oT8bZcxSc4k4n6AVCnDbZULEPNNsjzM1ZNFeLtm/w=
-			</data>
-		</dict>
-		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uiNwntHC3UkKO/A7qBstQeJPFhHF1I8wUKNIwrKa7Tg=
-			</data>
-		</dict>
-		<key>Modules/Elepay_StripeApplePay_Plugin.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PfR530aMTtz28fd/A9Yx6yZT3zVtH02F8QWteVc17AY=
+			XoLcg3WBGTeI1uwThfwdSn4wxY+/92W+cg2fzZYKJwQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BeKQaJsiZoVX34WsyCk4DkOWep2SnOr08dpxMTUfiKM=
+			XUPLIv9W3xcmO4kzJJcQU/r/CSvPMvwbKCp5K7JWGeI=
 			</data>
 		</dict>
 	</dict>

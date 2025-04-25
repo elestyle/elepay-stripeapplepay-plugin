@@ -1,0 +1,868 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Elepay_StripeApplePay_Plugin",
+    "printedName": "Elepay_StripeApplePay_Plugin",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "Elepay_StripeApplePay_Plugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripeCore",
+        "printedName": "StripeCore",
+        "declKind": "Import",
+        "moduleName": "Elepay_StripeApplePay_Plugin"
+      },
+      {
+        "kind": "Import",
+        "name": "StripeApplePay",
+        "printedName": "StripeApplePay",
+        "declKind": "Import",
+        "moduleName": "Elepay_StripeApplePay_Plugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StripeApplePayPluginPaymentStatus",
+        "printedName": "StripeApplePayPluginPaymentStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus.Type) -> Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StripeApplePayPluginPaymentStatus",
+                    "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                    "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StripeApplePayPluginPaymentStatus",
+                        "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                        "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus@StripeApplePayPluginPaymentStatusSuccess",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO7successyA2CmF",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus.Type) -> Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StripeApplePayPluginPaymentStatus",
+                    "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                    "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StripeApplePayPluginPaymentStatus",
+                        "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                        "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus@StripeApplePayPluginPaymentStatusError",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO5erroryA2CmF",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "userCancellation",
+            "printedName": "userCancellation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus.Type) -> Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StripeApplePayPluginPaymentStatus",
+                    "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                    "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StripeApplePayPluginPaymentStatus",
+                        "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                        "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus@StripeApplePayPluginPaymentStatusUserCancellation",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO16userCancellationyA2CmF",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StripeApplePayPluginPaymentStatus",
+                    "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                    "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO8rawValueACSgSi_tcfc",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO8rawValueACSgSi_tcfc",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO8rawValueSivp",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO8rawValueSivp",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO8rawValueSivg",
+                "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO8rawValueSivg",
+                "moduleName": "Elepay_StripeApplePay_Plugin",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus",
+        "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE13PaymentStatusO",
+        "moduleName": "Elepay_StripeApplePay_Plugin",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StripeApplePayPluginDelegate",
+        "printedName": "StripeApplePayPluginDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "applePayPluginContext",
+            "printedName": "applePayPluginContext(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StripeApplePayPluginPaymentStatus",
+                "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPluginPaymentStatus",
+                "usr": "c:@M@Elepay_StripeApplePay_Plugin@E@StripeApplePayPluginPaymentStatus"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(pl)StripeApplePayPluginDelegate(im)applePayPluginContext:error:",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE8DelegateP05appledE7Context_5erroryAA0bcdE13PaymentStatusO_s5Error_pSgtF",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : Elepay_StripeApplePay_Plugin.StripeApplePayPluginDelegate>",
+            "sugared_genericSig": "<Self where Self : Elepay_StripeApplePay_Plugin.StripeApplePayPluginDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(pl)StripeApplePayPluginDelegate",
+        "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE8DelegateP",
+        "moduleName": "Elepay_StripeApplePay_Plugin",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StripeApplePayPlugin",
+        "printedName": "StripeApplePayPlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StripeApplePayPlugin",
+                "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPlugin",
+                "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin(cpy)sharedPlugin",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE0C6sharedACvpZ",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "static": true,
+            "objc_name": "sharedPlugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StripeApplePayPlugin",
+                    "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPlugin",
+                    "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin(cm)sharedPlugin",
+                "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE0C6sharedACvgZ",
+                "moduleName": "Elepay_StripeApplePay_Plugin",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(publishableKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin(im)setupWithPublishableKey:",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE0C5setup14publishableKeyySS_tF",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "objc_name": "setupWithPublishableKey:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeApplePay",
+            "printedName": "makeApplePay(request:clientSecret:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPaymentRequest",
+                "printedName": "PassKit.PKPaymentRequest",
+                "usr": "c:objc(cs)PKPaymentRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StripeApplePayPluginDelegate",
+                "printedName": "any Elepay_StripeApplePay_Plugin.StripeApplePayPluginDelegate",
+                "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(pl)StripeApplePayPluginDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin(im)makeApplePayWithRequest:clientSecret:delegate:",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE0C04makecD07request12clientSecret8delegateSbSo16PKPaymentRequestC_SSAA0bcdE8Delegate_ptF",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "objc_name": "makeApplePayWithRequest:clientSecret:delegate:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pluginDeviceSupportsApplePay",
+            "printedName": "pluginDeviceSupportsApplePay()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin(cm)pluginDeviceSupportsApplePay",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE0C020pluginDeviceSupportscD0SbyFZ",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "paymentRequest",
+            "printedName": "paymentRequest(withMerchantIdentifier:country:currency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PKPaymentRequest",
+                "printedName": "PassKit.PKPaymentRequest",
+                "usr": "c:objc(cs)PKPaymentRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin(cm)paymentRequestWithMerchantIdentifier:country:currency:",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE0C14paymentRequest22withMerchantIdentifier7country8currencySo09PKPaymentG0CSS_S2StFZ",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "static": true,
+            "objc_name": "paymentRequestWithMerchantIdentifier:country:currency:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StripeApplePayPlugin",
+                "printedName": "Elepay_StripeApplePay_Plugin.StripeApplePayPlugin",
+                "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin(im)init",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE0CACycfc",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "applePayContext",
+            "printedName": "applePayContext(_:didCreatePaymentMethod:paymentInformation:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "STPApplePayContext",
+                "printedName": "StripeApplePay.STPApplePayContext",
+                "usr": "c:@M@StripeApplePay@objc(cs)_stpinternal_APContextSwift"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMethod",
+                "printedName": "StripeCore.StripeAPI.PaymentMethod",
+                "usr": "s:10StripeCore0A3APIC0A8ApplePayE13PaymentMethodV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPayment",
+                "printedName": "PassKit.PKPayment",
+                "usr": "c:objc(cs)PKPayment"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28Elepay_StripeApplePay_Plugin0bcdE0C05appleD7Context_22didCreatePaymentMethod18paymentInformation10completiony0bcD008STPAppledG0C_0B4Core0B3APICAHE0jK0VSo9PKPaymentCySSSg_s5Error_pSgtctF",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE0C05appleD7Context_22didCreatePaymentMethod18paymentInformation10completiony0bcD008STPAppledG0C_0B4Core0B3APICAHE0jK0VSo9PKPaymentCySSSg_s5Error_pSgtctF",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applePayContext",
+            "printedName": "applePayContext(_:didCompleteWith:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "STPApplePayContext",
+                "printedName": "StripeApplePay.STPApplePayContext",
+                "usr": "c:@M@StripeApplePay@objc(cs)_stpinternal_APContextSwift"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentStatus",
+                "printedName": "StripeApplePay.STPApplePayContext.PaymentStatus",
+                "usr": "s:14StripeApplePay08STPAppleC7ContextC13PaymentStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28Elepay_StripeApplePay_Plugin0bcdE0C05appleD7Context_15didCompleteWith5errory0bcD008STPAppledG0C_AI13PaymentStatusOs5Error_pSgtF",
+            "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE0C05appleD7Context_15didCompleteWith5errory0bcD008STPAppledG0C_AI13PaymentStatusOs5Error_pSgtF",
+            "moduleName": "Elepay_StripeApplePay_Plugin",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Elepay_StripeApplePay_Plugin@objc(cs)StripeApplePayPlugin",
+        "mangledName": "$s28Elepay_StripeApplePay_Plugin0bcdE0C",
+        "moduleName": "Elepay_StripeApplePay_Plugin",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ApplePayContextDelegate",
+            "printedName": "ApplePayContextDelegate",
+            "usr": "s:14StripeApplePay0bC15ContextDelegateP",
+            "mangledName": "$s14StripeApplePay0bC15ContextDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_stpinternal_STPApplePayContextDelegateBase",
+            "printedName": "_stpinternal_STPApplePayContextDelegateBase",
+            "usr": "c:@M@StripeApplePay@objc(pl)_stpinternal_STPApplePayContextDelegateBase",
+            "mangledName": "$s14StripeApplePay021_stpinternal_STPAppleC19ContextDelegateBaseP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/linguofeng\/NativeProjects\/elepay\/Submodules\/StripeApplePayPlugin\/Elepay-StripeApplePay-Plugin\/StripeApplePayPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 391,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/linguofeng\/NativeProjects\/elepay\/Submodules\/StripeApplePayPlugin\/Elepay-StripeApplePay-Plugin\/StripeApplePayPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 505,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/linguofeng\/NativeProjects\/elepay\/Submodules\/StripeApplePayPlugin\/Elepay-StripeApplePay-Plugin\/StripeApplePayPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1177,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/linguofeng\/NativeProjects\/elepay\/Submodules\/StripeApplePayPlugin\/Elepay-StripeApplePay-Plugin\/StripeApplePayPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1215,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/linguofeng\/NativeProjects\/elepay\/Submodules\/StripeApplePayPlugin\/Elepay-StripeApplePay-Plugin\/StripeApplePayPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1260,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
